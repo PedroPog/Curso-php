@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Books on Line</a>
+      <a class="navbar-brand" href="#">Mary Jane</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -16,12 +16,12 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categoria <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Infra-Estrutura</a></li>
-            <li><a href="#">Dados</a></li>
+            <li><a href="#">Sementes</a></li>
+            <li><a href="#">Floricultura</a></li>
+            <li><a href="#">Acessorios</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Front-End</a></li>
-            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Estruturas</a></li>
+            <li><a href="#">Tecnologia</a></li>
           </ul>
         </li>
       </ul>
