@@ -26,3 +26,4 @@ constraint fk_cat foreign key(idCategoria) references categoria(idCategoria),
 constraint fk_cri foreign key(idCriador) references criacao(idCriador)
 )default charset utf8;
 
+insert into categoria values(default,'semente')
