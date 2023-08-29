@@ -38,7 +38,6 @@ echo "<div><H1>Seus dados</H1>
         flex-wrap: wrap;
         text-align: center;
     }
-    }
     </style>
 
 </body>
