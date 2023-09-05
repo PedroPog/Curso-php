@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
     <?php include 'nav.php'?> <!--Include de navbar-->
     <?php include 'header.html'?>
-
+    
     <div class="container-fluid">
         <div class="row"> <!-- linha -->
+        <?php 
+         include 'conexao.php';
+         $consulta = $url->query('select * from listarprod');
+         while($exibe = $consulta->fetch(PDO::FETCH_ASSOC)){
+            echo '<div class="col-sm-3">
+                <img src="https://placehold.it/450x320" alt="" class="img-responsive" styles="width:100%"> 
+                <div><h1>',$exibe['dsProduto'],'</h1></div>
+                <div><h4>',$exibe['valor'],'</h4></div>
+            </div>';
+         }
+        ?>
+            <!--
             <div class="col-sm-3">
                 <img src="https://placehold.it/450x320" alt="" class="img-responsive" styles="width:100%"> 
                 <div><h1>Nome do Produto</h1></div>
@@ -31,12 +43,7 @@
                 <img src="https://placehold.it/450x320" alt="" class="img-responsive" styles="width:100%"> 
                 <div><h1>Nome do Produto</h1></div>
                 <div><h4>R$500,00</h4></div>
-            </div>
-            <div class="col-sm-3">
-                <img src="https://placehold.it/450x320" alt="" class="img-responsive" styles="width:100%"> 
-                <div><h1>Nome do Produto</h1></div>
-                <div><h4>R$500,00</h4></div>
-            </div>
+            </div>-->
         </div>
     </div>
 
