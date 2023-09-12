@@ -53,11 +53,11 @@ insert into produto values (default,'Jordan 2','110.00','10','1','3','1','jordan
 (default,'Boné AEROREADY','110.00','10','2','2','4','bone1','N');
 
 insert into produto values
-(default,'Chuteira Predator','150.00','10','1','2','3','chuteira1','N'),
-(default,'Camisa DryFit','25.00','20','1','1','4','camisa1','N'),
-(default,'Tênis Skate Pro','80.00','15','1','4','2','tenisskate','N'),
-(default,'Meião Esportivo','10.00','30','1','1','4','meiao1','N'),
-(default,'Bermuda Fitness','40.00','12','1','2','4','bermuda1','N');
+(default,'Chuteira Predator','150.00','0','1','2','3','chuteira1','N'),
+(default,'Camisa DryFit','25.00','0','1','1','4','camisa1','N'),
+(default,'Tênis Skate Pro','80.00','0','1','4','2','tenisskate','N'),
+(default,'Meião Esportivo','10.00','0','1','1','4','meiao1','N'),
+(default,'Bermuda Fitness','40.00','0','1','2','4','bermuda1','N');
 
 insert into produto values
 (default,'Bola de Vôlei','30.00','8','2','1','3','bolavolei','N'),
