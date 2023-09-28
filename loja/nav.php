@@ -7,18 +7,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">(Sem nome)</a>
+      <a class="navbar-brand" href="./index.php">(Sem nome)</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class=""><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Lançamentos</a></li>
+        <li class=""><a href="./index.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="./lancamento.php">Lançamentos</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categoria <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Marcas</a></li>
-            <li><a href="#">Estilos</a></li>
-            <li><a href="#">Acessorios</a></li>
+            <li><a href="marca.php">Marcas</a></li>
+            <li><a href="categoria.php?cat=tenis">Tenis</a></li>
+            <li><a href="categoria.php?cat=acessorio">Acessorios</a></li>
           </ul>
         </li>
       </ul>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>(Sem nome) -- Bem vindo!</title>
+    <title>(Sem nome) -- Lançamento</title>
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -18,7 +18,7 @@
 
     <div class="container-fluid" style="margin-bottom: 10%;">
         <div class="row"> <!-- linha -->
-            <?php $consulta = $url->query('select dsProduto,valor,dsCapa, estoque from listarprod');
+            <?php $consulta = $url->query('select dsProduto,valor,dsCapa,estoque from listarprod where sgLancamento = "S"');
             while ($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) { ?>
             <div class="col-sm-3 teste">
                 <img src="assets/imagens/<?php echo $exibe['dsCapa'] ?>.png" alt="" class="img-responsive" styles="width:100%"> 

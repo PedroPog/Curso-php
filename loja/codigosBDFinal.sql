@@ -87,5 +87,11 @@ on produto.idEstilo = estilo.idEstilo;
 select * from listarprod;
 
 
+select dsProduto,valor,dsCapa,estoque from listarprod;
+
+select dsProduto,valor,dsCapa,estoque from listarprod where sgLancamento = 'S';
+select dsProduto,valor,dsCapa,estoque from listarprod where dsCategoria = "Tenis";
+
+
 
 
