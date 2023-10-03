@@ -24,7 +24,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#contato">Contato</a></li>
-        <li><a href="#log"><span class="glyphicon glyphicon-log-in"> Logon</a></li>
+        <li><a href="./login.php"><span class="glyphicon glyphicon-log-in"> Logon</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
