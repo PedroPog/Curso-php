@@ -12,9 +12,13 @@
 </head>
 
 <body>
-    <?php include 'nav.php';
+    
+    <?php
+    session_start();
+    include 'conexao.php';
+    include 'nav.php';
     include 'header.html';
-    include 'conexao.php'; ?><!--Include de navbar-->
+     ?><!--Include de navbar-->
 
     <div class="container-fluid" style="margin-bottom: 10%;">
         <div class="row"> <!-- linha -->
