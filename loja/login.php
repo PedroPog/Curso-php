@@ -42,9 +42,11 @@
 					<button type="submit" class="btn btn-lg btn-default">
 						<span class="glyphicon glyphicon-ok"> Entrar</span>
 					</button>
-					<button type="submit" class="btn btn-lg btn-link">
-						Ainda não sou cadastrado
-					</button>
+					<a href="formusuario.php">
+						<button type="button" class="btn btn-lg btn-link">
+							Ainda não sou cadastrado
+						</button>
+					</a>
 				</form>
 			</div>
 		</div>

@@ -112,5 +112,8 @@ Create table user(
 
 insert into user
 values(default,"Pedro Henrique","pedro@gmail.com","123456",1,"rua. de casa","São paulo","02810-010"),
-	(default,"Henrique","henrique@gmail.com","123456",0,"rua. de fora","São paulo","02810-010")
+	(default,"Henrique","henrique@gmail.com","123456",0,"rua. de fora","São paulo","02810-010");
+    
+    SELECT * FROM db_loja.user;
 
+select usuario from user where idUser = 1;

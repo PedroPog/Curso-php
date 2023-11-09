@@ -18,7 +18,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                         aria-expanded="false">Categoria <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="marca.php">Marcas</a></li>
+                        <li><a href="marca.php?cat=">Marcas</a></li>
                         <li><a href="categoria.php?cat=tenis">Tenis</a></li>
                         <li><a href="categoria.php?cat=acessorio">Acessorios</a></li>
                     </ul>

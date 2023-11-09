@@ -26,9 +26,9 @@
                 <img src="assets/imagens/<?php echo $exibe['dsCapa'] ?>.png" alt="" class="img-responsive" styles="width:100%"> 
                 <div><h3 class="text-center"><b><?php echo mb_strimwidth($exibe['dsMarca'],0,20,'...')?></b></h3></div>
                 <div class="text-center">
-                    <button class="btn btn-lg btn-block btn-default" >
-                    <a href='marca.php?cat=<?php echo $exibe['dsMarca'] ?>'>Ir</a>
-                    </button>
+                <a href='marca.php?cat=<?php echo $exibe['dsMarca'] ?>'>
+                    <button class="btn btn-lg btn-block btn-default">Ir</button>
+                </a>
                 </div>
             </div>
             <?php }?>
