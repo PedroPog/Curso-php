@@ -117,3 +117,6 @@ values(default,"Pedro Henrique","pedro@gmail.com","123456",1,"rua. de casa","Sã
     SELECT * FROM db_loja.user;
 
 select usuario from user where idUser = 1;
+
+
+select * from listarprod where dsProduto like 'jor%';
